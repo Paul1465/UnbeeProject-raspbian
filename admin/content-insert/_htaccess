@@ -1,0 +1,5 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "C:\xampp\htdocs\unbeeProject\admin\content-insert\.htpasswd"
+Require valid-user
+php_value session.save_path "C:\xampp\tmp"
